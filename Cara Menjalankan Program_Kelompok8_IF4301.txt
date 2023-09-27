@@ -1,0 +1,21 @@
+Strategi dan Cara Menjalankan Program
+
+Penguji atau user memasukan kalimat uji, kalimat uji yang dimasukan harus sesuai 
+dengan simbol terminal yang didefinisikan dan susunan kata harus sesuai dengan aturan pada 
+grammar yaitu dengan struktur S-V-O (NN VB NN), kemudian program akan menguji validasi 
+kalimat uji. Program lexical analyzer akan bekerja dengan cara mengidentifikasi apakah 
+kata-kata pada kalimat uji sesuai dengan simbol terminal, sedangkan program parser akan 
+bekerja  dengan cara  mengidentifikasi  apakah  kalimat  uji  sudah memenuhi  aturan  pada grammar.   
+Jika kalimat uji dapat memenuhi aturan lexical dan parser maka kalimat uji tersebut dapat 
+dikatakan valid atau diterima, tetapi jika kalimat uji hanya memenuhi aturan lexical saja atau 
+tidak  memenuhi  aturan  lexical  dan  parser  maka  kalimat  uji  dapat  dikatakan  tidak  valid  atau  tidak   
+di terima. 
+
+Adapun Langkah-langkah untuk menjalankan program yaitu sebagai berikut : 
+1. Pastikan file program sudah terdownload dan python sudah terinstall. 
+2. Klik dua kali pada file program atau file juga bisa dibuka melalui text editor 
+   (disarankan Visual Studio Code) kemudian buka terminal pada Visual Studio Code 
+   dan untuk menjalankannya ketik python TubesTBA.py 
+3. Masukan kalimat yang ingin diuji, program akan memproses kalimat uji dan aka 
+   menghasilkan output apakah kalimat uji valid atau tidak. 
+4. Ketik “quit” untuk keluar dari program. 
